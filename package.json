@@ -1,0 +1,16 @@
+{
+  "name": "nedb-kvs",
+  "version": "0.0.1",
+  "description": "nedb-kvs is simple kvs database by neDB",
+  "main": "index.js",
+  "dependencies": {
+    "nedb": "~0.10.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "endotakashi",
+  "license": "MIT"
+}

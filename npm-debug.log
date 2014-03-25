@@ -1,0 +1,236 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/endotakashi/.nodebrew/current/bin/node',
+1 verbose cli   '/Users/endotakashi/.nodebrew/current/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.26
+4 verbose node symlink /Users/endotakashi/.nodebrew/current/bin/node
+5 verbose publish [ '.' ]
+6 verbose read json /Users/endotakashi/bin/nedb-kvs/package.json
+7 warn package.json nedb-kvs@0.0.1 No repository field.
+8 verbose cache add [ '.', null ]
+9 verbose cache add name=undefined spec="." args=[".",null]
+10 verbose parsed url { pathname: '.', path: '.', href: '.' }
+11 silly lockFile 3a52ce78- .
+12 verbose lock . /Users/endotakashi/.npm/3a52ce78-.lock
+13 verbose read json package.json
+14 verbose tar pack [ '/var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz',
+14 verbose tar pack   '.' ]
+15 verbose tarball /var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+16 verbose folder .
+17 info prepublish nedb-kvs@0.0.1
+18 silly lockFile 1f1177db-tar tar://.
+19 verbose lock tar://. /Users/endotakashi/.npm/1f1177db-tar.lock
+20 silly lockFile 82499a7b-30441-0-4665613833349198-tmp-tgz tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+21 verbose lock tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz /Users/endotakashi/.npm/82499a7b-30441-0-4665613833349198-tmp-tgz.lock
+22 silly lockFile 1f1177db-tar tar://.
+23 silly lockFile 1f1177db-tar tar://.
+24 silly lockFile 82499a7b-30441-0-4665613833349198-tmp-tgz tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+25 silly lockFile 82499a7b-30441-0-4665613833349198-tmp-tgz tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+26 verbose tar unpack /var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+27 silly lockFile 0d16343d-30441-0-4665613833349198-package tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+28 verbose lock tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package /Users/endotakashi/.npm/0d16343d-30441-0-4665613833349198-package.lock
+29 silly lockFile 82499a7b-30441-0-4665613833349198-tmp-tgz tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+30 verbose lock tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz /Users/endotakashi/.npm/82499a7b-30441-0-4665613833349198-tmp-tgz.lock
+31 silly gunzTarPerm modes [ '755', '644' ]
+32 silly gunzTarPerm extractEntry package.json
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm extractEntry example.js
+35 silly gunzTarPerm extractEntry index.js
+36 verbose read json /var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package/package.json
+37 silly lockFile 0d16343d-30441-0-4665613833349198-package tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+38 silly lockFile 0d16343d-30441-0-4665613833349198-package tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+39 silly lockFile 82499a7b-30441-0-4665613833349198-tmp-tgz tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+40 silly lockFile 82499a7b-30441-0-4665613833349198-tmp-tgz tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/tmp.tgz
+41 verbose from cache /var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package/package.json
+42 verbose tar pack [ '/Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz',
+42 verbose tar pack   '/var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package' ]
+43 verbose tarball /Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+44 verbose folder /var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+45 silly lockFile 0d16343d-30441-0-4665613833349198-package tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+46 verbose lock tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package /Users/endotakashi/.npm/0d16343d-30441-0-4665613833349198-package.lock
+47 silly lockFile 9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+48 verbose lock tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz /Users/endotakashi/.npm/9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz.lock
+49 silly lockFile 0d16343d-30441-0-4665613833349198-package tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+50 silly lockFile 0d16343d-30441-0-4665613833349198-package tar:///var/folders/0y/r35kryl926v5p5w2ybqw8y240000gn/T/npm-3594/1395739830441-0.4665613833349198/package
+51 silly lockFile 9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+52 silly lockFile 9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+53 silly lockFile 84677a28-kashi-npm-nedb-kvs-0-0-1-package /Users/endotakashi/.npm/nedb-kvs/0.0.1/package
+54 verbose lock /Users/endotakashi/.npm/nedb-kvs/0.0.1/package /Users/endotakashi/.npm/84677a28-kashi-npm-nedb-kvs-0-0-1-package.lock
+55 silly lockFile 84677a28-kashi-npm-nedb-kvs-0-0-1-package /Users/endotakashi/.npm/nedb-kvs/0.0.1/package
+56 silly lockFile 84677a28-kashi-npm-nedb-kvs-0-0-1-package /Users/endotakashi/.npm/nedb-kvs/0.0.1/package
+57 verbose tar unpack /Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+58 silly lockFile d6e1813d-kashi-npm-nedb-kvs-0-0-1-package tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package
+59 verbose lock tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package /Users/endotakashi/.npm/d6e1813d-kashi-npm-nedb-kvs-0-0-1-package.lock
+60 silly lockFile 9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+61 verbose lock tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz /Users/endotakashi/.npm/9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry example.js
+66 silly gunzTarPerm extractEntry index.js
+67 verbose read json /Users/endotakashi/.npm/nedb-kvs/0.0.1/package/package.json
+68 silly lockFile d6e1813d-kashi-npm-nedb-kvs-0-0-1-package tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package
+69 silly lockFile d6e1813d-kashi-npm-nedb-kvs-0-0-1-package tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package
+70 silly lockFile 9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+71 silly lockFile 9e169a59-i-npm-nedb-kvs-0-0-1-package-tgz tar:///Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz
+72 verbose from cache /Users/endotakashi/.npm/nedb-kvs/0.0.1/package/package.json
+73 verbose chmod /Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz 644
+74 verbose chown /Users/endotakashi/.npm/nedb-kvs/0.0.1/package.tgz [ 501, 20 ]
+75 silly lockFile 3a52ce78- .
+76 silly lockFile 3a52ce78- .
+77 silly publish { name: 'nedb-kvs',
+77 silly publish   version: '0.0.1',
+77 silly publish   description: 'nedb-kvs is simple kvs database by neDB',
+77 silly publish   main: 'index.js',
+77 silly publish   dependencies: { nedb: '~0.10.4' },
+77 silly publish   devDependencies: {},
+77 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+77 silly publish   repository: '',
+77 silly publish   author: { name: 'endotakashi' },
+77 silly publish   license: 'MIT',
+77 silly publish   readme: '#Simple is best!!\nnedb-kvs is simple kvs database.It it base on NeDB.\n\n#Get Started\n\n```javascript:app.js\nvar Kvs = require(\'nedb-kvs\')\nvar test = Kvs(\'./test.db\')\n\n//set data\ntest.set(\'name\', \'takashiiii\')\n\n//get data\ntest.get(\'name\', function(data) {\n    console.log(data)\n})\n```\n\n#Author\nname:EndoTakashi  \nemail:endotakashi1992@icloud.com  \ntwitter:https://twitter.com/kyouzyuuuuuuuu1\n\n#License\nMIT license\n\n####below is Japanese\n\n#やっぱりシンプルが一番だよね〜\nnedb-kvsはシンプルなkey-valueデータベースです。作るにあたり、NeDBというモジュールを元にしています。\n\n#さっそくだけど、使ってみよう\n```javascript:app.js\nvar Kvs = require(\'nedb-kvs\')\nvar test = Kvs(\'./test.db\')\n\n//データをセットする\ntest.set(\'name\', \'takashiiii\')\n\n//データを入手する\ntest.get(\'name\', function(data) {\n    console.log(data)\n})\n```\n\n#作者\n遠藤孝志  \nemail:endotakashi1992@icloud.com  \ntwitter:https://twitter.com/kyouzyuuuuuuuu1\n\n#ライセンス\nMITライセンスで公開中です。',
+77 silly publish   readmeFilename: 'README.md',
+77 silly publish   _id: 'nedb-kvs@0.0.1',
+77 silly publish   dist: { shasum: '461355eb99f1972f20144f3a3d7883a3790b98ab' },
+77 silly publish   _from: '.' }
+78 verbose url raw nedb-kvs
+79 verbose url resolving [ 'https://registry.npmjs.org/', './nedb-kvs' ]
+80 verbose url resolved https://registry.npmjs.org/nedb-kvs
+81 info trying registry request attempt 1 at 18:30:30
+82 http PUT https://registry.npmjs.org/nedb-kvs
+83 http 503 https://registry.npmjs.org/nedb-kvs
+84 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+84 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+84 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+84 verbose bad json <html>
+84 verbose bad json   <head>
+84 verbose bad json     <title>503 Backend is unhealthy</title>
+84 verbose bad json   </head>
+84 verbose bad json   <body>
+84 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
+84 verbose bad json     <p>Backend is unhealthy</p>
+84 verbose bad json     <h3>Guru Meditation:</h3>
+84 verbose bad json     <p>XID: 2707314204</p>
+84 verbose bad json     <hr>
+84 verbose bad json     <p>Varnish cache server</p>
+84 verbose bad json   </body>
+84 verbose bad json </html>
+85 error registry error parsing json
+86 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+86 info retry
+86 info retry <?xml version="1.0" encoding="utf-8"?>
+86 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+86 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+86 info retry <html>
+86 info retry   <head>
+86 info retry     <title>503 Backend is unhealthy</title>
+86 info retry   </head>
+86 info retry   <body>
+86 info retry     <h1>Error 503 Backend is unhealthy</h1>
+86 info retry     <p>Backend is unhealthy</p>
+86 info retry     <h3>Guru Meditation:</h3>
+86 info retry     <p>XID: 2707314204</p>
+86 info retry     <hr>
+86 info retry     <p>Varnish cache server</p>
+86 info retry   </body>
+86 info retry </html>
+87 info trying registry request attempt 2 at 18:30:41
+88 http PUT https://registry.npmjs.org/nedb-kvs
+89 http 503 https://registry.npmjs.org/nedb-kvs
+90 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+90 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+90 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+90 verbose bad json <html>
+90 verbose bad json   <head>
+90 verbose bad json     <title>503 Backend is unhealthy</title>
+90 verbose bad json   </head>
+90 verbose bad json   <body>
+90 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
+90 verbose bad json     <p>Backend is unhealthy</p>
+90 verbose bad json     <h3>Guru Meditation:</h3>
+90 verbose bad json     <p>XID: 3949170124</p>
+90 verbose bad json     <hr>
+90 verbose bad json     <p>Varnish cache server</p>
+90 verbose bad json   </body>
+90 verbose bad json </html>
+91 error registry error parsing json
+92 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+92 info retry
+92 info retry <?xml version="1.0" encoding="utf-8"?>
+92 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+92 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+92 info retry <html>
+92 info retry   <head>
+92 info retry     <title>503 Backend is unhealthy</title>
+92 info retry   </head>
+92 info retry   <body>
+92 info retry     <h1>Error 503 Backend is unhealthy</h1>
+92 info retry     <p>Backend is unhealthy</p>
+92 info retry     <h3>Guru Meditation:</h3>
+92 info retry     <p>XID: 3949170124</p>
+92 info retry     <hr>
+92 info retry     <p>Varnish cache server</p>
+92 info retry   </body>
+92 info retry </html>
+93 info trying registry request attempt 3 at 18:31:41
+94 http PUT https://registry.npmjs.org/nedb-kvs
+95 http 503 https://registry.npmjs.org/nedb-kvs
+96 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+96 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+96 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+96 verbose bad json <html>
+96 verbose bad json   <head>
+96 verbose bad json     <title>503 Backend is unhealthy</title>
+96 verbose bad json   </head>
+96 verbose bad json   <body>
+96 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
+96 verbose bad json     <p>Backend is unhealthy</p>
+96 verbose bad json     <h3>Guru Meditation:</h3>
+96 verbose bad json     <p>XID: 2502264033</p>
+96 verbose bad json     <hr>
+96 verbose bad json     <p>Varnish cache server</p>
+96 verbose bad json   </body>
+96 verbose bad json </html>
+97 error registry error parsing json
+98 error publish Failed PUT response 503
+99 error SyntaxError: Unexpected token <
+99 error
+99 error <?xml version="1.0" encoding="utf-8"?>
+99 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+99 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+99 error <html>
+99 error   <head>
+99 error     <title>503 Backend is unhealthy</title>
+99 error   </head>
+99 error   <body>
+99 error     <h1>Error 503 Backend is unhealthy</h1>
+99 error     <p>Backend is unhealthy</p>
+99 error     <h3>Guru Meditation:</h3>
+99 error     <p>XID: 2502264033</p>
+99 error     <hr>
+99 error     <p>Varnish cache server</p>
+99 error   </body>
+99 error </html>
+99 error
+99 error     at Object.parse (native)
+99 error     at RegClient.<anonymous> (/Users/endotakashi/.nodebrew/node/v0.8.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:23)
+99 error     at Request.init.self.callback (/Users/endotakashi/.nodebrew/node/v0.8.26/lib/node_modules/npm/node_modules/request/index.js:148:22)
+99 error     at Request.EventEmitter.emit (events.js:99:17)
+99 error     at Request.onResponse (/Users/endotakashi/.nodebrew/node/v0.8.26/lib/node_modules/npm/node_modules/request/index.js:876:14)
+99 error     at Request.EventEmitter.emit (events.js:126:20)
+99 error     at IncomingMessage.Request.onResponse.buffer (/Users/endotakashi/.nodebrew/node/v0.8.26/lib/node_modules/npm/node_modules/request/index.js:827:12)
+99 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+99 error     at IncomingMessage._emitEnd (http.js:367:10)
+99 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+100 error If you need help, you may report this log at:
+100 error     <http://github.com/isaacs/npm/issues>
+100 error or email it to:
+100 error     <npm-@googlegroups.com>
+101 error System Darwin 13.1.0
+102 error command "/Users/endotakashi/.nodebrew/current/bin/node" "/Users/endotakashi/.nodebrew/current/bin/npm" "publish"
+103 error cwd /Users/endotakashi/bin/nedb-kvs
+104 error node -v v0.8.26
+105 error npm -v 1.2.30
+106 error type unexpected_token
+107 verbose exit [ 1, true ]
